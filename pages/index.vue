@@ -110,8 +110,8 @@
         <LandingBuyTradeImage class="sm:hidden mb-8" />
         <div data-aos="fade-right" class="col-span-12 lg:col-span-6 mt-4 xl:mt-20 space-y-6 px-4">
           <h2 class="text-4xl font-semibold sm:pr-8 xl:pr-12">
-            Buy & trade on the <br class="hidden sm:block" />
-            original crypto exchange.
+            Buy & trade with<br class="hidden sm:block" />
+            the different companies in the system.
           </h2>
           <p class="paragraph">
             Buy now and get 40% extra bonus Minimum pre-sale amount 25 Crypto Coin. We accept BTC crypto-currency
@@ -146,11 +146,6 @@
         <h3 data-aos="flip-down" class="text-2xl text-neutral-800 font-semibold">Trusted Partners Worldwide</h3>
         <p data-aos="flip-down" class="paragraph">We're partners with countless major organisations around the globe</p>
         <div data-aos="fade-up" class="flex flex-wrap items-center justify-center">
-          <LandingPartnerImage
-            v-for="img in ['clever.png', 'diamon-cutts.png', 'swiss-finance.png', 'gambio.png']"
-            :key="img"
-            :img="img"
-          />
         </div>
       </div>
     </section>
@@ -165,18 +160,14 @@
         </div>
         <div class="col-span-12 lg:col-span-5 space-y-6 px-4 sm:px-6 mt-20">
           <h2 class="text-4xl font-semibold">
-            Introducing the <span class="text-header-gradient">NEFA</span> Credit Card
+            Introducing the <span class="text-header-gradient">Virtual</span> economy system
           </h2>
-          <p class="paragraph">Subject to cardholder and rewards terms which will be available at application.</p>
+          <p class="paragraph">Get virtual funding allocated to your unique idea, spend, trade and earn money.</p>
           <ul class="space-y-4 sm:space-y-2">
-            <LandingListItem title="Up to 3% back on purchases" />
-            <LandingListItem title="Earn rewards in bitcoin or any crypto on NEFA" />
-            <LandingListItem title="No annual fee" />
+            <LandingListItem title="Fully based on your idea" />
+            <LandingListItem title="Converted to bank reserve and shares" />
+            <LandingListItem title="Pay, earn and trade in our virtual economy" />
           </ul>
-          <BaseButton
-            class="w-full sm:max-w-[240px] px-10 py-4 bg-inherit text-gradient border border-[#0c66ee] text-base"
-            >Join the waitlist</BaseButton
-          >
         </div>
       </BaseSection>
     </section>
@@ -186,34 +177,25 @@
       <div class="relative max-w-screen-xl px-4 sm:px-2 mx-auto grid grid-cols-12 gap-x-6">
         <LandingTradingToolImage class="sm:hidden" />
         <div data-aos="fade-right" class="col-span-12 lg:col-span-6 space-y-8 sm:space-y-6 px-4 sm:px-6 mt-8">
-          <h2 class="text-4xl font-semibold">Advanced Trading <span class="text-header-gradient">Tools</span></h2>
+          <h2 class="text-4xl font-semibold">Advanced Encubation of <span class="text-header-gradient">Ideas</span></h2>
           <div class="space-y-2">
-            <h4 class="text-lg font-medium">Professional Access, Non-stop Availability</h4>
+            <h4 class="text-lg font-medium">Professional Validators, Non-stop Pitching</h4>
             <p class="paragraph text-sm xl:text-base">
-              We provide premium access to crypto trading for both individuals and institutions through high liquidity,
-              reliable order execution and constant uptime.
-            </p>
+Present your groundbreaking idea to the world's most prominent and dynamic figures in the fields of economics and startups. Receive evaluations from Ivy League professors, successful entrepreneurs, millionaires, venture capitalists, and many other distinguished experts.            </p>
           </div>
           <div class="space-y-2">
-            <h4 class="text-lg font-medium">A Range of Powerful Apis</h4>
+            <h4 class="text-lg font-medium">Trade in the Virtual Economy</h4>
             <p class="paragraph text-sm xl:text-base">
-              Set up your own trading interface or deploy your algorithmic strategy with our high-performance FIX and
-              HTTP APIs. Connect to our WebSocket for real-time data streaming.
-            </p>
+Secure funding based on the validation provided by reputable validators. These funds will be converted into shares and repository money, allowing you to trade and grow your company.            </p>
           </div>
           <div class="space-y-2">
-            <h4 class="text-lg font-medium">Customer Support</h4>
+            <h4 class="text-lg font-medium">Winners get real Investment</h4>
             <p class="paragraph text-sm xl:text-base">
-              Premium 24/7 support available to all customers worldwide by phone or email. Dedicated account managers
-              for partners.
-            </p>
+After two days of action-packed virtual pitching, business simulation, and trading, the top projects will be directly contacted by world-leading venture capitalists (VCs), providing them with the opportunity to raise real funds.            </p>
           </div>
           <div class="flex flex-col sm:flex-row">
             <BaseButton class="px-10 py-4 bg-inherit text-gradient border border-[#4A8FF6] text-base">
-              Get Started
-            </BaseButton>
-            <BaseButton class="bg-inherit text-[#4A8FF6] px-10 py-4 text-center underline rounded-full">
-              Learn More
+              Read Memo
             </BaseButton>
           </div>
         </div>
@@ -226,30 +208,23 @@
       <div class="relative max-w-screen-xl px-8 mx-auto grid grid-cols-12 gap-x-6">
         <div data-aos="fade-right" class="col-span-12 lg:col-span-6">
           <div class="w-full">
-            <img :src="require('~/assets/img/industry-leading-security.webp')" class="w-full" alt="" />
+            <img :src="require('~/assets/img/idk.png')" class="w-full" alt="" />
           </div>
         </div>
         <div data-aos="fade-left" class="col-span-12 lg:col-span-5 space-y-8 sm:space-y-6 mt-8 xl:px-8">
-          <h2 class="text-4xl font-semibold">Industry-leading security from day one</h2>
+          <h2 class="text-4xl font-semibold">Industry-leading connection from day one</h2>
           <ul class="space-y-8 sm:space-y-4">
-            <LandingListItem title="Safety, security and compliance">
+            <LandingListItem title="Meet new people!">
               <p class="text-sm text-gray-700 leading-relaxed">
-                NEFA is a licensed New York trust company that undergoes regular bank exams and is subject to the
-                cybersecurity audits conducted by the New York Department of Financial Services.
-                <span class="underline">Learn more</span> about our commitment to security.
-              </p>
+Engage with individuals from diverse countries, demographics, and economic backgrounds. Connect and explore with people to understand their unique ideas and perspectives.              </p>
             </LandingListItem>
-            <LandingListItem title="Hardware security keys">
+            <LandingListItem title="Learn about the economy">
               <p class="text-sm text-gray-700 leading-relaxed">
-                With NEFA you can secure your account with a hardware security key via WebAuthn.
-              </p>
+Experience a breath of fresh air with our virtual stock market and trading platform, offering a condensed simulation of a business's journey over 15 years in just 3 days. Explore the exciting world of startups and gain valuable insights.              </p>
             </LandingListItem>
-            <LandingListItem title="SOC Certifications">
+            <LandingListItem title="Meet Industury leading VCs and personalities">
               <p class="text-sm text-gray-700 leading-relaxed">
-                NEFA is <span class="underline">SOC 1 Type 2</span> and
-                <span class="underline">SOC 2 Type 2</span> compliant. We are the world’s first cryptocurrency exchange
-                and custodian to complete these exams.
-              </p>
+Connect with influential individuals who have significantly impacted businesses worldwide. Meet real-life sharks, entrepreneurial geniuses, industry leaders, and those who hold the reins of global funding monopolies.              </p>
             </LandingListItem>
           </ul>
         </div>
@@ -257,36 +232,20 @@
     </section>
 
     <!-- Getting started section -->
-    <section class="bg-trading-tools relative max-w-full sm:mx-4 xl:mx-10 my-24 shadow sm:rounded-2xl overflow-hidden">
-      <div class="w-full py-16 flex flex-col items-center">
-        <h2 data-aos="flip-down" class="text-3xl sm:text-4xl font-semibold text-center">
-          Get started in just a few minutes
-        </h2>
-        <div
-          data-aos="fade-up"
-          class="relative w-full flex flex-col lg:flex-row items-center justify-between space-y-12 lg:space-y-0 px-4 xl:px-10 mt-16 sm:mt-8"
-        >
-          <LandingStep v-for="step in steps" :key="step.title" :step="step" />
-          <img
-            :src="require('~/assets/img/getting-started/arrow.png')"
-            class="hidden lg:inline-block absolute top-32 left-64 xl:left-[22rem] w-24 xl:w-[9.5rem]"
-            alt=""
-          />
-          <img
-            :src="require('~/assets/img/getting-started/arrow.png')"
-            class="hidden lg:inline-block absolute top-32 right-64 xl:right-[22rem] w-24 xl:w-[9.5rem]"
-            alt=""
-          />
+       <section class="bg-partner relative max-w-full sm:mx-6 my-24 shadow sm:rounded-2xl overflow-hidden">
+      <div class="w-full px-6 sm:px-0 py-16 flex flex-col items-center justify-center space-y-4 text-center">
+        <h3 data-aos="flip-down" class="text-2xl text-neutral-800 font-semibold">Global Audience</h3>
+        <p data-aos="flip-down" class="paragraph">Connect and compete with the global audience, build international connections.</p>
+        <div data-aos="fade-up" class="flex flex-wrap items-center justify-center">
         </div>
       </div>
     </section>
-
     <!-- FAQ section -->
     <section class="w-full my-24">
       <BaseSection>
         <div data-aos="fade-right" data-aos-delay="150" class="col-span-12 lg:col-span-6">
           <div class="w-full">
-            <img :src="require('~/assets/img/faq.webp')" class="w-full" alt="" />
+            <img :src="require('~/assets/img/support.png')" class="w-full" alt="" />
           </div>
         </div>
         <div data-aos="fade-left" data-aos-delay="150" class="col-span-12 lg:col-span-6 px-4 sm:px-6 mt-8">
@@ -337,7 +296,7 @@ export default {
       ],
       cryptoSelected: {
         img: 'crypto-icon/bitcoin.png',
-        name: 'BTC',
+        name: 'STOCKS',
       },
       cryptocurrencies: [
         {
@@ -348,33 +307,33 @@ export default {
       trendings: [
         {
           id: 1,
-          name: 'Bitcoin',
+          name: 'Kala-Kriti',
           price: 43180.13,
-          logo: 'bitcoin.png',
+          logo: 'pappay.png',
           increase: true,
           data: [40, 35, 60, 75, 60, 75, 50],
         },
         {
           id: 2,
-          name: 'Ethereum',
+          name: 'Squircl',
           price: 3480.65,
-          logo: 'ethereum.png',
+          logo: 'pappay.png',
           increase: false,
           data: [25, 30, 60, 50, 80, 55, 80],
         },
         {
           id: 3,
-          name: 'Solana',
+          name: 'Rayauth',
           price: 150.2,
-          logo: 'solana.png',
+          logo: 'pappay.png',
           increase: true,
           data: [40, 45, 40, 80, 50, 60, 35],
         },
         {
           id: 4,
-          name: 'Dogecoin',
+          name: 'Dogebot',
           price: 0.1572,
-          logo: 'dogecoin.png',
+          logo: 'pappay.png',
           increase: true,
           data: [35, 70, 60, 80, 50, 60, 40],
         },
@@ -382,31 +341,31 @@ export default {
       topGainers: [
         {
           id: 1,
-          name: 'PAPPAY',
+          name: 'SuperAI',
           price: 0.00374,
-          logo: 'pappay.png',
+          logo: 'ninjafloki.png',
           increase: true,
           data: [30, 50, 45, 60, 70, 40, 45],
         },
         {
           id: 2,
-          name: 'Bitcoin Asia',
+          name: 'Beautify',
           price: 0.02096,
-          logo: 'bitcoin-asia.png',
+          logo: 'ninjafloki.png',
           increase: true,
           data: [25, 60, 50, 60, 35, 50, 70],
         },
         {
           id: 3,
-          name: 'MoonRock',
+          name: 'Snappy',
           price: 0.004907,
-          logo: 'moonrock.png',
+          logo: 'ninjafloki.png',
           increase: true,
           data: [40, 35, 40, 25, 50, 70, 45],
         },
         {
           id: 4,
-          name: 'NinjaFloki',
+          name: 'Folkloree',
           price: 0.000123,
           logo: 'ninjafloki.png',
           increase: true,
@@ -418,13 +377,13 @@ export default {
           id: 1,
           name: 'MetaCraft',
           price: 0.0608,
-          logo: 'metacraft.png',
+          logo: 'frog.png',
           increase: false,
           data: [40, 50, 45, 60, 35, 40, 45],
         },
         {
           id: 2,
-          name: 'Frog',
+          name: 'Gamify',
           price: 0.5875,
           logo: 'frog.png',
           increase: false,
@@ -432,41 +391,41 @@ export default {
         },
         {
           id: 3,
-          name: 'Musk Doge',
+          name: 'Unplug',
           price: 0.04041,
-          logo: 'musk-doge.png',
+          logo: 'frog.png',
           increase: true,
           data: [25, 35, 60, 45, 50, 45, 45],
         },
         {
           id: 4,
-          name: '2SHARE',
+          name: 'SuperShare',
           price: 1366.24,
-          logo: '2share.png',
+          logo: 'frog.png',
           increase: true,
           data: [35, 30, 60, 50, 35, 45, 40],
         },
       ],
       accordions: [
         {
-          title: 'Why should I choose NEFA?',
+          title: 'Why should I participate?',
           description:
-            "We're industry pioneers, having been in the cryptocurrency industry since 2016. We've facilitated more than 21 billion USD worth of transactions on our exchange for customers in over 40 countries. Today, we're trusted by over 8 million customers around the world and have received praise for our easy-to-use app, secure wallet, and range of features.",
+            "place holder, idk how to put this we will, add stuff",
         },
         {
-          title: 'How secure is NEFA?',
+          title: 'How global is the event',
           description:
-            "We're industry pioneers, having been in the cryptocurrency industry since 2016. We've facilitated more than 21 billion USD worth of transactions on our exchange for customers in over 40 countries. Today, we're trusted by over million customers around the world and have received praise for our easy-to-use app, secure wallet, and range of features.",
+            "place holder, idk how to put this we will, add stuff",
         },
         {
-          title: 'Do I have to buy a whole Bitcoin?',
+          title: 'Who are the VCS and Validators',
           description:
-            "We're industry pioneers, having been in the cryptocurrency industry since 2016. We've facilitated more than 21 billion USD worth of transactions on our exchange for customers in over 40 countries. Today, we're trusted by over million customers around the world and have received praise for our easy-to-use app, secure wallet, and range of features.",
+            "place holder, idk how to put this we will, add stuff",
         },
         {
-          title: 'How do I actually buy Bitcoin?',
+          title: 'How do I actually participate',
           description:
-            "We're industry pioneers, having been in the cryptocurrency industry since 2016. We've facilitated more than 21 billion USD worth of transactions on our exchange for customers in over 40 countries. Today, we're trusted by over million customers around the world and have received praise for our easy-to-use app, secure wallet, and range of features.",
+            "place holder, idk how to put this we will, add stuff",
         },
       ],
       steps: [

@@ -5,18 +5,20 @@
       <BaseSection>
         <div class="col-span-12 lg:col-span-6 mt-12 xl:mt-10 space-y-4 sm:space-y-6 px-6 text-center sm:text-left">
           <span data-aos="fade-right" data-aos-once="true" class="text-base text-gradient font-semibold uppercase"
-            >Sign Up Today</span
+            >Welcome To</span
           >
-          <h1
-            data-aos="fade-right"
+          <ul  data-aos="fade-right"
             data-aos-once="true"
-            class="text-[2.5rem] sm:text-5xl xl:text-6xl font-bold leading-tight capitalize sm:pr-8 xl:pr-10"
-          >
-            The World's <span class="text-header-gradient">Fastest Growing</span> Crypto Web App
+            class="text-[2.5rem] space-y-1 sm:text-5xl xl:text-5xl font-bold leading-tight capitalize sm:pr-8 xl:pr-10"
+            >
+          <h1>
+            The Globe's
           </h1>
+          <h1 class="text-header-gradient">First Business</h1>
+          <h1 class="">simulation event</h1>
+          </ul>
           <p data-aos="fade-down" data-aos-once="true" data-aos-delay="300" class="paragraph hidden sm:block">
-            Buy and sell 200+ cryptocurrencies with 20+ flat currencies using bank transfers or your credit/debit card.
-          </p>
+        Condensing 15 years into 3 days, welcome to the world's first entrepreneurial event of its kind.          </p>
           <div
             data-aos="fade-up"
             data-aos-once="true"
@@ -26,12 +28,12 @@
             <BaseButton
               class="max-w-full px-8 py-4 bg-gradient-to-r from-[#468ef9] to-[#0c66ee] border border-[#0c66ee] text-white"
             >
-              Get Started
+             Register
             </BaseButton>
             <BaseButton
               class="max-w-full px-6 py-4 bg-inherit text-gradient border border-[#0c66ee] flex items-center justify-center"
             >
-              <span>Download App</span>
+              <span>About</span>
               <ChevronDownIcon :size="20" class="mt-1 text-[#0c66ee]" />
             </BaseButton>
           </div>
@@ -41,7 +43,7 @@
             <img
               data-aos="fade-up"
               data-aos-once="true"
-              :src="require('~/assets/img/hero-image.webp')"
+              :src="require('~/assets/img/hero.svg')"
               class="-mt-4"
               alt=""
             />
